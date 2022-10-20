@@ -1,0 +1,9 @@
+# Workspace root
+/build
+/devel
+
+# Project src
+
+## Files
+.catkin_workspace
+/src/CMakeLists.txt
