@@ -94,7 +94,7 @@ main ()
   fi
 
   # Check if ROS Noetic setup.<shell> is sourced
-  if [ `! command -v catkin_make &> /dev/null` ] ; then
+  if [ `! command -v catkin_make &> /dev/null` ]; then
     log "ROS Noetic is not sourced"
 
     if [ "$DEFAULT_SHELL" = "bash" ]; then
@@ -105,6 +105,11 @@ main ()
 	    log "Please run: source $PATH_ROS/setup.sh"
     fi
     exit 1
+  fi
+
+  # Create src directory if it does not exist
+  if [ ! -d "$PATH_WORKSPACE/src" ]; then
+    mkdir "$PATH_WORKSPACE/src" -p
   fi
 
   log "Init workshop"
