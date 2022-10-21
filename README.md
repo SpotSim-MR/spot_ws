@@ -20,14 +20,14 @@ A workspace for SPOT robot in SpotSim-MR project. This workspace is based on [Yo
 
 ## Dependencies
 
-| Index | Dependency                                                                  |
-| ----- | --------------------------------------------------------------------------- |
-| 1     | [PranshuTople/champ](https://github.com/PranshuTople/champ.git)             |
-| 2     | [chvmp/champ_teleop](https://github.com/chvmp/champ_teleop.git)             |
-| 3     | [chvmp/robots](https://github.com/chvmp/robots.git)                         |
-| 4     | [chvmp/spot_ros](https://github.com/chvmp/spot_ros.git)                     |
-| 5     | [SpotSim-MR/spot_controller](git@github.com:SpotSim-MR/spot_controller.git) |
-| 6     | [SpotSim-MR/spotsim_og](git@github.com:SpotSim-MR/spotsim_og.git)           |
+| Index | Dependency                                                                      |
+| ----- | ------------------------------------------------------------------------------- |
+| 1     | [PranshuTople/champ](https://github.com/PranshuTople/champ.git)                 |
+| 2     | [chvmp/champ_teleop](https://github.com/chvmp/champ_teleop.git)                 |
+| 3     | [chvmp/robots](https://github.com/chvmp/robots.git)                             |
+| 4     | [chvmp/spot_ros](https://github.com/chvmp/spot_ros.git)                         |
+| 5     | [SpotSim-MR/spot_controller](https://github.com/SpotSim-MR/spot_controller.git) |
+| 6     | [SpotSim-MR/spotsim_og](https://github.com/SpotSim-MR/spotsim_og.git)           |
 
 ## Instruction
 
