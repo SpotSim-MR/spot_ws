@@ -68,6 +68,10 @@ cloneRepo() {
   if [ ! -d "$PATH_SRC/spot_controller" ]; then
     git clone git@github.com:SpotSim-MR/spot_controller.git "$PATH_SRC/spot_controller"
   fi
+
+  if [ ! -d "$PATH_SRC/spotsim_og" ]; then
+    git clone git@github.com:SpotSim-MR/spotsim_og.git "$PATH_SRC/spotsim_og"
+  fi
 }
 
 # Main entrypoint

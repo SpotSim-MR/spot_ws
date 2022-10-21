@@ -51,7 +51,8 @@ main() {
   if [ -d "$PATH_SRC/spot_ros" ];then rm -rf "$PATH_SRC/spot_ros"; fi
   if [ -d "$PATH_SRC/yocs_velocity_smoother" ];then rm -rf "$PATH_SRC/yocs_velocity_smoother"; fi
   if [ -d "$PATH_SRC/spot_controller" ];then rm -rf "$PATH_SRC/spot_controller"; fi
-  # if [ -f "$PATH_SRC/CMakeLists.txt" ];then rm  "$PATH_SRC/CMakeLists.txt"; fi
+  if [ -d "$PATH_SRC/spotsim_og" ];then rm -rf "$PATH_SRC/spotsim_og"; fi
+  if [ -f "$PATH_SRC/CMakeLists.txt" ];then rm  "$PATH_SRC/CMakeLists.txt"; fi
   log "Files deleted"
 }
 
