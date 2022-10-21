@@ -2,9 +2,12 @@ all:
 
 run:
 
-ws_setup:
+ros-install:
+	bash ./scripts/ros_install.sh
+
+ws-setup:
 	bash ./scripts/workspace_setup.sh
 
-ws_clean:
+ws-clean:
 	bash ./scripts/workspace_clean.sh
 

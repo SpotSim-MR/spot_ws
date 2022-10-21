@@ -131,7 +131,7 @@ main ()
   elif [ "$DEFAULT_SHELL" = "zsh" ]; then
     log "Please run: source $PATH_DEVEL/setup.zsh"
   else
-    echo "Please run: source $PATH_DEVEL/setup.sh"
+    log "Please run: source $PATH_DEVEL/setup.sh"
   fi
 }
 
