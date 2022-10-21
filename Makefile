@@ -11,3 +11,6 @@ ws-setup:
 ws-clean:
 	bash ./scripts/workspace_clean.sh
 
+help:
+	bash ./scripts/help.sh
+
