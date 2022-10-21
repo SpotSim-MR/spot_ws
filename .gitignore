@@ -1,6 +1,7 @@
 # Workspace root
 /build
 /devel
+/src
 
 # Project src
 
