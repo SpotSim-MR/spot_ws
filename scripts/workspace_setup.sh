@@ -6,7 +6,8 @@
 # Author: nivratig
 # Source: https://www.youtube.com/watch?v=C9quuhNuWIM
 
-# Formatted log with datetime log() {
+# Formatted log with datetime
+log() {
   DATE="[`date +"%T"]` $1"
   echo "$DATE"
 }
