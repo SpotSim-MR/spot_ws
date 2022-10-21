@@ -6,8 +6,7 @@
 # Author: nivratig
 # Source: https://www.youtube.com/watch?v=C9quuhNuWIM
 
-# Formatted log with datetime
-log() {
+# Formatted log with datetime log() {
   DATE="[`date +"%T"]` $1"
   echo "$DATE"
 }
@@ -84,7 +83,7 @@ main ()
 
   # Find the path of the workspace
   # NOTE: must be run first
-  log "Finding workspace path..."
+  log "Finding workspace path"
   resolveWorkspacePath PATH_WORKSPACE
 
   # Check if ROS Noetic is installed
@@ -107,16 +106,16 @@ main ()
     exit 1
   fi
 
-  log "Init workshop..."
+  log "Init workshop"
   build $PATH_WORKSPACE
 
-  log "Cloning repositories..."
+  log "Cloning repositories"
   cloneRepo $PATH_WORKSPACE
 
-  log "Installing dependencies..."
+  log "Installing dependencies"
   resolveDeps $PATH_WORKSPACE
 
-  log "Building..."
+  log "Building"
   build $PATH_WORKSPACE
 
   log "Task finished! "
