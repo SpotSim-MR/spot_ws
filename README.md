@@ -16,7 +16,7 @@ A workspace for SPOT robot in SpotSim-MR project. This workspace is based on [Yo
 
 | Index | ROS    | Tested | Status  | OS             | Kernel            |
 | ----- | ------ | ------ | ------- | -------------- | ----------------- |
-| 1     | Noetic | yes    | success | Ubuntu:22.04.5 | 5.15.0-52-generic |
+| 1     | Noetic | yes    | success | Ubuntu:20.04.5 | 5.15.0-52-generic |
 
 ## Dependencies
 

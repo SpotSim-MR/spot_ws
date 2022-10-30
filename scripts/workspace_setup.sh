@@ -47,6 +47,7 @@ getDeps() {
 # - robots: list of configs
 # - spot_ros: Spot config
 # - spot_controller: control throught waypoints
+# - spotsim_og: export pgm map
 cloneRepo() {
   PATH_SRC="$1/src"
   if [ ! -d "$PATH_SRC/champ" ]; then
